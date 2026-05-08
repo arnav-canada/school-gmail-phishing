@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #1663a9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 490px;
+    height: 475px;
+    background: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box h1 {
+    position: absolute;
+    top: 130px;   /* move it down/up to control “middle” */
+    left: 10%;
+
+    margin: 0;
+}
+
+.box p {
+    position: absolute;
+    top: 180px;   /* move it down/up to control “middle” */
+    left: 10%;
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+.box a {
+    position: absolute;
+    top: 130px;
+    left: 10%;
+	line-height: 3;
+    font-size: 14px;
+    margin: 0;
+    color: #5197cf;
+
+    white-space: nowrap;   /* prevents word-by-word wrapping */
+    display: inline-block; /* keeps it behaving like text */
+}
+
+.box img {
+    position: absolute;
+    top: 40px;
+    left: 55px;   /* moves it right a bit from top-left */
+
+    width: 180px;
+    height: auto;
+}
+
+.box input[type="text"] {
+    width: 400px;
+    height: 60px;
+
+    position: absolute;
+    top: 235px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: none;
+    border-bottom: 2px solid currentColor;
+
+    outline: none;
+    background: transparent;
+
+    text-align: left;
+    font-size: 16px;
+
+    color: #888; /* grey */
+
+    padding: 0 0 0px 1px;
+}
+
+.box button {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+
+    width: 140px;          /* makes it wider */
+    height: 40px;
+
+    background-color: #0067b8;  /* blue */
+    color: white;
+
+    border: none;
+    border-radius: 0;
+
+    cursor: pointer;
+    font-size: 18px; /* increase this */
+}
