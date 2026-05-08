@@ -7,7 +7,12 @@ this is based on the bule peel login screen but its not %100 accurate
 # support
 if you have a server or at least a computer get php 7.4 or lator i frogot what modules im using but its every default dsm 6
 css works with if you have php but if you dont its fine because of built in html
+
 and MAKE SURE in index.php change "webhook" to any webhook like discords
+also if you find
+"YOUR AFTER LOGIN GOS HERE"
+you can change the link on the left to be the link they go to after login i just set it to google but with 0
+
 
 # how to use
 if you have a domain good just make it a directoy or index on base
